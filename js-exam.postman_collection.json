@@ -37,13 +37,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/movie",
+					"raw": "http://localhost:5050/api/movie",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"movie"
 					]
 				}
@@ -82,13 +83,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/movie",
+					"raw": "http://localhost:5050/api/movie",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"movie"
 					]
 				}
@@ -128,13 +130,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/movies",
+					"raw": "http://localhost:5050/api/movies",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"movies"
 					]
 				}
@@ -174,13 +177,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/movies?movieName=movie",
+					"raw": "http://localhost:5050/api/movies?movieName=movie",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"movies"
 					],
 					"query": [
@@ -194,7 +198,7 @@
 			"response": []
 		},
 		{
-			"name": "create review1 and user2",
+			"name": "create review1 and user2 for movie2",
 			"event": [
 				{
 					"listen": "test",
@@ -224,13 +228,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/review",
+					"raw": "http://localhost:5050/api/review",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"review"
 					]
 				}
@@ -238,7 +243,7 @@
 			"response": []
 		},
 		{
-			"name": "fail to create review2 with more than 1000 letters for user2",
+			"name": "fail to create review2 with more than 1000 letters",
 			"event": [
 				{
 					"listen": "test",
@@ -268,13 +273,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/review",
+					"raw": "http://localhost:5050/api/review",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"review"
 					]
 				}
@@ -314,13 +320,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/reviews",
+					"raw": "http://localhost:5050/api/reviews",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"reviews"
 					]
 				}
@@ -357,13 +364,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5050/movie/{{movie2Id}}",
+					"raw": "http://localhost:5050/api/movie/{{movie2Id}}",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "5050",
 					"path": [
+						"api",
 						"movie",
 						"{{movie2Id}}"
 					]
